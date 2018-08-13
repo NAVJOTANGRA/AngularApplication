@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+   // alert("dfs");
+    $.ajax({
+        url: "http://192.168.10.54/GFOGateway/api/common/GetTrainList?key=1272",
+        type: "GET",
+       // data: data,
+       // async: false,
+        
+    
+        success: function (result) {
+            alert(result);
+        }
+    });
+});
+    </script>
+</head>
+<body>
+
+   
+
+</body>
+</html>
